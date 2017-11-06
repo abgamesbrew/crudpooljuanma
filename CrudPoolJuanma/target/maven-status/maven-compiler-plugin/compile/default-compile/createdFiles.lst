@@ -1,0 +1,6 @@
+es\albarregas\filters\UTF8Filter.class
+es\albarregas\controllers\Realizar.class
+es\albarregas\controllers\Concluir.class
+es\albarregas\connection\Conectar.class
+es\albarregas\beans\Ave.class
+es\albarregas\controllers\Operar.class

@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-nov-2017, 11:33:42
+    Author     : shirone
+*/
+
+body{
+    background-color: #393635;
+}
+
+#centro{
+    text-align: center;
+}
+
+#centrado{
+    background-color: #D2C7C4;
+    text-align: center;
+    width:30%;
+    margin:auto;
+    border: 1px solid black;
+}
+
+#centrado h2{
+    font-size: 1.5vw;
+}
+#centradoformu h2{
+    font-size: 1.5vw;
+}
+#centradoformu{
+     background-color: #D2C7C4;
+    text-align: center;
+    width:30%;
+    margin:auto;
+    border: 1px solid black;   
+}
+#centradoformu table{
+   margin:auto; 
+}
+
+p{
+    color:red;
+}
+
+.logo{
+    width:15%;
+    margin-left:15%;
+}
+
+.mysql{
+    width:15%;
+    margin-left:40%;
+}
+
+#centrado table{
+    margin:auto;
+    
+    border: 1px dotted darkgray;
+    text-align: center;
+}
+
+#centrado table td{
+    background-color: white;
+}

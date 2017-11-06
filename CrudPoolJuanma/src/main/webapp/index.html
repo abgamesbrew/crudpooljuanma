@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="CSS/todos.css">
+    </head>
+    <body>
+        <img src="IMAGES/crudlogo.png" class="logo">
+        <img src="IMAGES/mysql.png" class="mysql">
+        <div id="centrado">
+        <h2>¿Que operacion quieres realizar en nuestra base de datos?</h2>
+        <form method="post" action="operar" id="inicio">
+            <input type="radio" name="opcion" value="crear" checked><label>Crear un registro nuevo</label><br><br>
+            <input type="radio" name="opcion" value="leer"><label>Leer todos los registros</label><br><br>
+            <input type="radio" name="opcion" value="actualizar"><label>Actualizar un registro</label><br><br>
+            <input type="radio" name="opcion" value="eliminar"><label>Eliminar uno o varios registros</label><br><br>
+            <input type="submit" value="Realizar operacion" name="enviar">
+        </form>
+        </div>
+    </body>
+</html>
